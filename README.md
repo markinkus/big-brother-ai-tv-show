@@ -58,10 +58,23 @@ npm run dev:web
 
 ## Roadmap Snapshot
 
-- deeper autonomous simulation for contestant behavior and memory
-- stronger pacing, highlights, and weekly live-show packaging
-- richer newsroom automation and audience-facing narrative layers
-- optional LLM augmentation behind strict JSON contracts
+Now in place:
+
+- deterministic simulation ticks with persisted contestant state, objectives, memories, confessionals, and highlights
+- House Director pacing beats, richer VIP summaries, newsroom narrative framing, and a generated weekly live pack
+- configurable audition/provino flow with provider, model, traits, and pixel-skin controls from UI
+
+Next:
+
+- audience clusters, nominations, vote results, and elimination outcomes
+- operator settings for season selection, provider presets, and premium test-user control
+- frontend WebSocket consumption instead of polling-heavy screen refreshes
+
+After that:
+
+- stricter optional LLM provider/contracts layer
+- deeper balancing of social strategy, memory compression, and long-horizon pacing
+- cleanup of legacy parallel source trees and harder deployment/runtime polish
 
 ## Repository Guide
 

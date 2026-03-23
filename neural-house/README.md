@@ -114,6 +114,9 @@ python -m app.worker
 The current MVP already provides:
 
 - a FastAPI API covering seasons, contestants, persona cards, newsroom, VIP state, audition sessions, and simulation-state reads
+- persisted contestant states, objective progress, memories, confessionals, and highlights wired into simulation ticks
+- a deterministic House Director layer that can inject pacing interventions such as rumor drops, trust tests, and contradiction pressure beats
+- a generated weekly live pack built from persisted highlights, confessionals, articles, and relationship pressure
 - a WebSocket stub at `WS /ws/seasons/{season_id}`
 - seeded data for a starter season, rooms, contestants, journalists, articles, persona cards, and a premium test user/session flow
 - a presentable frontend shell across the major product screens
@@ -122,19 +125,33 @@ The current MVP already provides:
 
 The MVP does not yet provide:
 
-- fully autonomous long-horizon house behavior
-- mature memory and relationship engines
-- production-grade episode orchestration and highlight packaging
-- finished premium/VIP interactions beyond the current first pass
+- audience clusters, vote weighting, nominations, or elimination persistence
+- a full operator/settings surface for season selection, provider presets, and premium-user switching
+- frontend WebSocket subscriptions driving the main screens in real time
+- finished optional LLM provider/contracts execution and request logging
+- cleanup of the legacy parallel `src/` runtime trees under `apps/api` and `apps/worker`
 
 ## Roadmap
 
+Current branch has completed:
+
 - deterministic simulation ticks and progression loops
-- richer contestant memory, traits, and relationship systems
-- House Director orchestration for pacing and show structure
-- better highlight scoring, recap generation, and newsroom automation
-- stricter contracts around any optional LLM-assisted features
+- contestant state, objective, memory, confessional, and highlight persistence
+- House Director pacing orchestration
+- first real newsroom, VIP, recap, and weekly live integrations on top of season state
+- UI-side provino and contestant configuration flows with clearer grouped controls
+
+Next implementation slices:
+
+- audience clusters, voting, nominations, and elimination outcomes
+- central settings / operator UI for season, provider, and premium test-user control
+- frontend websocket wiring for house, VIP, newsroom, and live screens
+
+Later:
+
+- stricter contracts around optional LLM-assisted features
 - more tests, balancing, and deployment hardening
+- runtime cleanup of the duplicate legacy source trees
 
 ## Documentation
 
