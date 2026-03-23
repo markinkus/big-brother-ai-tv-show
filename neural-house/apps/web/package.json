@@ -1,0 +1,35 @@
+{
+  "name": "@neural-house/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:smoke": "playwright test"
+  },
+  "dependencies": {
+    "@neural-house/contracts": "0.1.0",
+    "@neural-house/design-tokens": "0.1.0",
+    "@tanstack/react-query": "^5.59.13",
+    "cytoscape": "^3.30.2",
+    "next": "14.2.35",
+    "phaser": "^3.85.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3"
+  }
+}

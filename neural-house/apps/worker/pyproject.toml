@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-house-worker"
+version = "0.1.0"
+description = "RQ worker for Neural House jobs"
+requires-python = ">=3.10"
+dependencies = [
+  "httpx>=0.27.2",
+  "redis>=5.0.8",
+  "rq>=1.16.2"
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]

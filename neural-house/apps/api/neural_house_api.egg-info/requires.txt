@@ -1,0 +1,15 @@
+aiosqlite>=0.20.0
+alembic>=1.13.2
+asyncpg>=0.29.0
+fastapi>=0.115.0
+httpx>=0.27.2
+psycopg[binary]>=3.2.1
+pydantic>=2.8.2
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.1
+redis>=5.0.8
+sqlalchemy>=2.0.35
+uvicorn[standard]>=0.30.6
+
+[test]
+pytest>=8.3.0

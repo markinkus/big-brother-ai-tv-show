@@ -1,0 +1,16 @@
+{
+  "name": "neural-house",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @neural-house/web",
+    "build:web": "npm run build --workspace @neural-house/web",
+    "build": "npm run build --workspace @neural-house/web",
+    "lint:web": "npm run lint --workspace @neural-house/web",
+    "test:web": "npm run test:smoke --workspace @neural-house/web"
+  }
+}

@@ -1,0 +1,8 @@
+pyproject.toml
+app/__init__.py
+app/worker.py
+neural_house_worker.egg-info/PKG-INFO
+neural_house_worker.egg-info/SOURCES.txt
+neural_house_worker.egg-info/dependency_links.txt
+neural_house_worker.egg-info/requires.txt
+neural_house_worker.egg-info/top_level.txt
