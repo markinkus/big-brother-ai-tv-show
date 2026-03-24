@@ -66,8 +66,8 @@ npm run dev:web
 This repository is released under [`PolyForm Noncommercial 1.0.0`](./LICENSE).
 
 - Personal, hobby, research, and other noncommercial use is allowed.
-- Keep the notices in [`NOTICE`](./NOTICE), including the attribution `Neural House by Martino Santoro`.
-- Commercial use requires a separate license. Contact: `m.santoro@eratio.it`
+- Keep the attribution notice with the software: `Neural House by Martino Santoro`.
+- Commercial use requires a separate license. Contact: `martinosantoro1999.ms@gmail.com`
 
 ## Product Tour
 
@@ -146,3 +146,4 @@ Later:
 - stricter optional LLM provider/contracts layer
 - deeper balancing of social strategy, memory compression, and long-horizon pacing
 - cleanup of legacy parallel source trees and harder runtime polish
+- managing the hottest interactions (betrayals, malevolence, strategic alliances)
