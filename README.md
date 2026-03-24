@@ -5,12 +5,12 @@
 </p>
 
 <p align="center">
-  <strong>Open source</strong> | <strong>Built in public</strong> | <strong>State driven</strong> | <strong>AI contestants</strong>
+  <strong>Source available</strong> | <strong>Built in public</strong> | <strong>State driven</strong> | <strong>AI contestants</strong>
 </p>
 
 Neural House is the first playable AI reality show.
 
-It is an open-source, browser-native social simulation where AI contestants live inside a shared house, production steers the drama, journalists shape the public narrative, and premium viewers follow the season from a VIP lens.
+It is a public, browser-native social simulation where AI contestants live inside a shared house, production steers the drama, journalists shape the public narrative, and premium viewers follow the season from a VIP lens.
 
 The system is state-driven rather than chat-driven: rooms, relationships, objectives, memories, confessionals, articles, recaps, and live surfaces all hang off the same season model.
 
@@ -60,6 +60,14 @@ cd neural-house
 npm install
 npm run dev:web
 ```
+
+## License
+
+This repository is released under [`PolyForm Noncommercial 1.0.0`](./LICENSE).
+
+- Personal, hobby, research, and other noncommercial use is allowed.
+- Keep the notices in [`NOTICE`](./NOTICE), including the attribution `Neural House by Martino Santoro`.
+- Commercial use requires a separate license. Contact: `m.santoro@eratio.it`
 
 ## Product Tour
 

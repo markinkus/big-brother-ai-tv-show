@@ -159,3 +159,9 @@ Later:
 - [`docs/API.md`](./docs/API.md)
 - [`docs/VIP_AND_NEWSROOM.md`](./docs/VIP_AND_NEWSROOM.md)
 - [`docs/PERSONA_CARD_SYSTEM.md`](./docs/PERSONA_CARD_SYSTEM.md)
+
+## License
+
+This product is source-available under [`PolyForm Noncommercial 1.0.0`](../LICENSE).
+Keep the notices in [`../NOTICE`](../NOTICE).
+Commercial use requires a separate license: `martinosantoro1999.ms@gmail.com`
