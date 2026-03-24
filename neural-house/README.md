@@ -152,6 +152,7 @@ Later:
 - stricter contracts around optional LLM-assisted features
 - more tests, balancing, and deployment hardening
 - runtime cleanup of the duplicate legacy source trees
+- managing the hottest interactions (betrayals, malevolence, strategic alliances)
 
 ## Documentation
 
